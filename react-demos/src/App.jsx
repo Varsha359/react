@@ -1,7 +1,11 @@
+import Greet from "./components/Greet";
+
 function App(){
-  return <h1>
-    Hello, varsha
-  </h1>
+  return <div>
+    <h1>
+    Hello, varsha! </h1> 
+    <Greet/>
+  </div>
 }
 
 // const App = () =>{
