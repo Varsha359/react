@@ -1,15 +1,12 @@
-import MainComponent from "./components/MainComponent";
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import React from 'react'
+import WelcomeMessage from './components/WelcomeMessage'
 
-function App(){
-  return(
+const App = () => {
+  return (
     <div>
-      <Header/>
-      <MainComponent/>
-      <Footer/>
+      <WelcomeMessage/>
     </div>
   )
 }
 
-export default App;
+export default App
