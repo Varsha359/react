@@ -1,17 +1,15 @@
-import Greet from "./components/Greet";
+import MainComponent from "./components/MainComponent";
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 function App(){
-  return <div>
-    <h1>
-    Hello, varsha! </h1> 
-    <Greet/>
-  </div>
+  return(
+    <div>
+      <Header/>
+      <MainComponent/>
+      <Footer/>
+    </div>
+  )
 }
-
-// const App = () =>{
-//   return <h1>
-//     Hello, varsha
-//   </h1>
-// }
 
 export default App;
