@@ -1,0 +1,10 @@
+/* Square.module.css */
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  border:solid #333; /* darker border */
+  border-radius: 0px;
+  background-color: white;
+  cursor: pointer;
+}

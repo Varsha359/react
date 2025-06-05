@@ -1,0 +1,7 @@
+.game {
+  display: flex;
+  flex-direction: row; /* places children side by side */
+  gap: 24px;           /* spacing between board and info */
+  align-items: flex-start;
+  padding: 20px;
+}
